@@ -1,0 +1,25 @@
+ID,Registration Zip,Years in HIV Care,PIF3,PIF4,PIF5,PIF601,PIF602,PIF603,PIF604,PIF605,PIF7,PIF8,PIF901,PIF902,PIF903,PIF10,PIF11,PIF12,PIF13,PIF14,PIF15,PIF16,PIF17,PIF18,PIF19,PIF20,PIF21,PIF22,PIF23,PIFIDCateg,PIFDATECateg,CityCateg,StateCateg,PIF3_Specify_OtherAlliedCateg,PIF3_Specify_OtherNonClinicalCateg,PIF4_SpecifyCateg
+id21040716,84047,1,17,4,0,0,0,1,0,0,3,8,84109,,,0,0,0,0.0,0.0,0.0,,,,,,,,,moontreemidwiferyatgmaildotcom,Date10-29-2021,Sandy,UT,SurgicalTech,,
+id21040718,84109,2,18,14,0,0,0,1,0,0,9,23,84109,,,0,0,0,0.0,0.0,1.0,1.0,3.0,44.0,3.0,3.0,3.0,3.0,3.0,alliedotevansathscdotutahdotedu,Date11-03-2021,SaltLakeCity,UT,,FrontDeskReceptionist,ContinuingEducationStudent
+id21040719,84321,3,1,1,1,0,0,0,0,1,1,1,84109,,,0,0,1,9.0,1.0,0.0,,,,,,,,,baileydotjonesathscdotutahdotedu,Date11-05-2021,Logan,UT,,,
+id21040721,84109,4,3,4,1,1,0,0,0,0,1,24,84047,,,0,0,1,1.0,,0.0,,,,,,,,,jonnydotjonesathscdotutahdotedu,Date11-01-2021,SaltLakeCity,UT,SurgicalTech,FrontDeskReceptionist,
+id21040725,84109,5,4,14,0,0,0,1,0,0,3,2,84047,,,0,0,0,1.0,1.0,0.0,,,,,,,,,blakedotjacksonathscdotutahdotedu,Date11-02-2021,SaltLakeCity,UT,SurgicalTech,FrontDeskReceptionist,
+id21040728,84109,6,3,2,0,0,1,0,0,0,2,3,84047,,,0,0,0,0.0,0.0,0.0,,,,,,,,,suntreemidwiferyatgmaildotcom,Date10-28-2021,SaltLakeCity,UT,,FrontDeskReceptionist,
+id21040731,84109,7,4,3,0,0,0,1,0,0,1,6,84047,,,0,0,1,0.0,0.0,0.0,,,,,,,,,moonplantidwiferyatgmaildotcom,Date10-28-2021,SaltLakeCity,UT,,,
+id21040734,84109,8,5,1,0,1,0,0,0,0,2,6,84047,,,0,0,0,0.0,,0.0,,,,,,,,,mooncloudmidwiferyatgmaildotcom,Date10-29-2021,SaltLakeCity,UT,,,
+id21040740,84109,1,6,4,1,0,0,1,0,0,3,5,84047,,,0,0,1,0.0,,0.0,,,,,,,,,suncliffmidwiferyatgmaildotcom,Date10-29-2021,SaltLakeCity,UT,,,GraduateStudent
+id21040741,84321,2,2,2,0,0,1,0,0,0,9,7,84047,,,0,0,1,0.0,,0.0,,,,,,,,,markzuberatgmaildotcom,Date10-29-2021,Logan,UT,,,ContinuingEducationStudent
+id21040744,84321,3,3,3,0,0,0,1,0,0,2,20,84047,,,0,0,0,9.0,,0.0,,,,,,,,,carterdotmorrisathscdotutahdotedu,Date10-28-2021,Logan,UT,,,GraduateStudent
+id21040742,84047,2,4,5,1,0,0,0,0,1,3,12,84109,,,0,0,1,9.0,,0.0,,,,,,,,,bridgerdotjonesathscdotutahdotedu,Date10-27-2021,Sandy,UT,,,GraduateStudent
+id21040745,84047,1,5,8,0,0,0,0,0,1,9,11,84109,,,0,0,0,9.0,0.0,0.0,,,,,,,,,brookdotjacksonathscdotutahdotedu,Date10-27-2021,Sandy,UT,,,ContinuingEducationStudent
+id21040748,80014,2,1,8,1,0,0,0,0,1,1,13,84109,,,0,0,1,9.0,0.0,0.0,,,,,,,,,wendydotjonesathscdotutahdotedu,Date10-29-2021,Denver,CO,,,ContinuingEducationStudent
+id21040750,80014,3,2,4,0,0,0,0,0,1,2,1,84109,,,0,0,0,9.0,0.0,0.0,,,,,,,,,alexdotmorrisonathscdotutahdotedu,Date10-29-2021,Denver,CO,,,ContinuingEducationStudent
+id21040751,80014,4,12,3,1,0,0,0,0,1,1,4,84109,,,0,0,1,9.0,0.0,0.0,,,,,,,,,jakedotbellathscdotutahdotedu,Date11-01-2021,Denver,CO,SurgicalTech,,
+id21040752,80014,3,3,4,0,0,1,0,0,0,2,14,84109,,,0,0,0,9.0,1.0,0.0,,,,,,,,,philjacksonathscdotutahdotedu,Date10-29-2021,Denver,CO,,,
+id21040753,80014,5,4,5,0,0,1,0,0,0,9,5,80014,,,0,0,0,9.0,1.0,0.0,,,,,,,,,corybrooksatyahoodotcom,Date10-28-2021,Denver,CO,,,
+id21040755,80521,4,13,6,1,1,0,0,0,0,1,6,80014,,,0,0,0,9.0,0.0,0.0,,,,,,,,,marybrooksatyahoodotcom,Date10-29-2021,FortCollins,CO,,,
+id21040756,80521,7,12,8,0,0,1,0,0,0,2,7,80014,,,0,0,1,,0.0,1.0,1.0,22.0,454.0,1.0,2.0,2.0,3.0,3.0,donavonbrooksatyahoodotcom,Date10-30-2021,FortCollins,CO,,,
+id21040758,80521,6,14,4,1,1,0,0,0,0,3,8,80014,,,0,0,0,9.0,0.0,1.0,1.0,45.0,7890.0,1.0,3.0,4.0,3.0,4.0,coryjamesatyahoodotcom,Date10-30-2021,FortCollins,CO,,,
+id21040772,89433,4,2,10,0,1,0,0,0,0,1,4,80014,,,0,0,1,0.0,0.0,,,,,,,,,,perryparisatyahoodotcom,Date11-01-2021,Reno,NV,,,
+id21040710,89433,2,3,12,0,1,0,0,0,0,2,4,80014,,,0,0,0,,0.0,,,,,,,,,,eringreenatyahoodotcom,Date11-01-2021,Reno,NV,,,
+id21040711,89433,1,4,14,1,1,0,0,0,0,4,5,80014,,,0,0,0,0.0,0.0,,,,,,,,,,erinbrooksatyahoodotcom,Date11-02-2021,Reno,NV,,,

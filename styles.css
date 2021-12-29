@@ -1,0 +1,441 @@
+#big-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "footerleft footerleft footerright footerright"
+        "idwindow idwindow idwindow idwindow"
+}
+
+#Introduction {
+    grid-area: header;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.resize {
+    width: 85%;
+    height: 85%;
+}
+
+#Introduction-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: auto;
+}
+
+#Logo {
+    grid-column: 2;
+    grid-row: 1; 
+}
+
+#Label_1 {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: right;
+}
+
+#csv {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 12%;
+}
+
+#performButton {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 10%;
+}
+
+#demoButtonDiv {
+    grid-column: 3;
+    grid-row: 2;
+    margin-top: 18%;
+}
+
+.home-label {
+    text-align: center;
+}
+
+#parentFilterDiv {
+    display: grid;
+    grid-template-rows: repeat(1, 2fr);
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: auto;
+}
+
+#filterDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: auto;
+}
+
+#filter {
+    grid-column: 1;
+    grid-row: 1; 
+    z-index: 99;
+}
+
+#filterS {
+    grid-column: 2;
+    grid-row: 1; 
+}
+
+#filterWindow {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+}
+
+.expandedWindow {
+    border:  2px solid black;
+}
+
+#filterDivButtons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 100%;
+    height: 75px;
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+#filterBlank {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#filterSButtons {
+    grid-column: 2;
+    grid-row: 1; 
+    display: inline-block;
+}
+
+#filterWindowReset {
+    grid-column: 3;
+    grid-row: 1;
+    display: inline-block;
+}
+
+#charts {
+    grid-area: main;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#charts-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: auto;
+}
+
+#chart1 {
+    grid-column: 1;
+    grid-row: 1; 
+}
+
+#chart2 {
+    grid-column: 2;
+    grid-row: 1; 
+}
+
+#chart3 {
+    grid-column: 3;
+    grid-row: 1; 
+}
+
+#chart4 {
+    grid-column: 4;
+    grid-row: 1; 
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis-label {
+    font-size: 11px;
+}
+
+.dropdown-label {
+    font-size: 11px;
+}
+
+div.toggle-panel {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 2px;
+}
+
+div.dropdown-wrapper {
+    display: inline-block;
+    margin-left: 30px;
+    width: 320px;
+    height: 100px;
+    padding: 2px;
+}
+
+div.dropdown-panel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 50%;
+    height: 50%;
+    grid-template-rows: auto;
+}
+
+.dropdown {
+    float: right;
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+/*style the arrow inside the select element:*/
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+
+.select-items div,
+.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+}
+
+/*style items (options):*/
+
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.y-label,
+.x-label {
+    width: 1%7;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+
+.button {
+    background-color: rgb(134, 124, 189);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 1%;
+    font-size: 16px;
+    cursor: pointer; 
+    border: white;
+}
+
+.button:active {
+    box-shadow: 5px rgb(68, 45, 196);
+    transform: translateY(4px);
+}
+
+.hovered {
+    fill: purple;
+    stroke: purple;
+    stroke-width: 7;
+    opacity: 1;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    min-width: 2%;
+    min-height: 2%;
+    padding: 2px;
+    stroke: gray;
+    border-radius: 6px;
+    pointer-events: none;
+    margin: auto;
+    font-weight: bold;
+}
+
+div.tooltipRect {
+    position: absolute;
+    text-align: center;
+    min-width: 2%;
+    min-height: 2%;
+    padding: 2px;
+    background: white;
+    stroke: gray;
+    border-radius: 6px;
+    pointer-events: none;
+    margin: auto;
+    font-weight: bold;
+}
+
+.tooltip h5 {
+    margin: auto;
+    font: 12px sans-serif;
+    font-weight: bold;
+}
+
+.tooltipRect h5 {
+    margin: auto;
+    font: 12px sans-serif;
+    font-weight: bold;
+}
+
+/* 
+Stylings for the slider
+*/
+
+.slider {
+    -webkit-appearance: none;
+    width: 500px;
+    height: 15px;
+    border-radius: 5px;
+    background:rgb(85,37,130);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(253,185,39);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #D4E157;
+    cursor: pointer;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider-label svg {
+    width: 500px;
+    height: 35px;
+}
+
+.slider-label svg text {
+    text-anchor: middle;
+}
+
+.slider-wrap {
+    padding-top: 15px;
+    display: inline-block;
+    /* float: left; */
+    width: 500px;
+}
+
+.pressed {
+    background-color: rgb(255, 55, 55);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 1%;
+    font-size: 16px;
+    cursor: pointer; 
+    border: white;
+}
+
+#idShowcase {
+    grid-area: idwindow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#idShowcaseWrapper {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: auto;
+}
+
+#idButtonDiv {
+    grid-column: 1;
+    grid-row: 1; 
+}
+
+#idWindow {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.button_select {
+    background-color: silver;
+    color: black;
+}

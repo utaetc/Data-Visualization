@@ -4,5 +4,5 @@ Link to project website: https://utaetc.github.io/Data-Visualization/ <br/>
 
 Desired Data Format:
 - The first column must be the ID column and must be labeled, "ID." The ID column must start with a character (a-z). 
-- The column names cannot contain any spaces or special characters (e.g. "/", "@", "-", "\", ".", ":")
-- The values within columns cannot contain any spaces or special characters (e.g. "/", "@", "-", "\", ".", ":")
+- The column names cannot contain any spaces or special characters (e.g. "/", "@", "-", "\", ".", ":", "\", "|", "?", etc.)
+- The values within columns cannot contain any spaces or special characters (e.g. "/", "@", "-", "\", ".", ":", "\", "|", "?", etc.)
